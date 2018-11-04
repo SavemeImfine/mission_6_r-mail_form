@@ -14,9 +14,10 @@ header('X-FRAME-OPTIONS: SAMEORIGIN');
 
 
 //データベースへの接続
-	$dsn = 'mysql:dbname=tt_282_99sv_coco_com;host=localhost';
-	$user = 'tt-282.99sv-coco';
-	$password = 'kE85t4N2';		//ユーザー名とパスワードをコンストラクタの2番目と3番目の引数
+	$dsn = 'データベース名';
+	$user = 'ユーザー名';
+	$password = 'パスワード';		//ユーザー名とパスワードをコンストラクタの2番目と3番目の引数
+	$pdo = new PDO($dsn,$user,$password);
 
 	//必ず例外処理（try,catch）を行う
 	try{
