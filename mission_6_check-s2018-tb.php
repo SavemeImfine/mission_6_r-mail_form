@@ -2,9 +2,9 @@
 header('Content-Type: text/html; charset=UTF-8');//文字コードの指定
 
 //データベースへの接続
-	$dsn = 'mysql:dbname=tt_282_99sv_coco_com;host=localhost';
-	$user = 'tt-282.99sv-coco';
-	$password = 'kE85t4N2';		//ユーザー名とパスワードをコンストラクタの2番目と3番目の引数
+	$dsn = 'データベース名';
+	$user = 'ユーザー名';
+	$password = 'パスワード';		//ユーザー名とパスワードをコンストラクタの2番目と3番目の引数
 	$pdo = new PDO($dsn,$user,$password);
 
 echo "【student2018】";
